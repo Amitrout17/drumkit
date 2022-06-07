@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-color: rgb(28, 28, 48);
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: "Sofia", sans-serif;
+}
+.drum{
+    height: 100px;
+    width: 100px;
+    border-color: yellowgreen;
+    border-width: 10px;
+    font-size: 50px;
+    margin: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.drum:hover{
+    color: blue;
+}
+footer{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+    margin-top: 50px;
+}
+.W{
+    background-image: url("crash.png");
+    background-position: 50%;
+}
+.A{
+    background-image: url("kick.png");
+}
+.S{
+    background-image: url("snare.png");
+}
+.D{
+    background-image: url("tom1.png");
+}
+.J{
+    background-image: url("tom2.png");
+}   
+.K{
+    background-image: url("tom3.png");
+}
+.L{
+    background-image: url("tom4.png");
+}
+.animation{
+    box-shadow: 0 3px 4px 0;
+    opacity: 0.5;
+}
